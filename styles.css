@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    background-color: darksalmon;
+    background-color: #D5896E;
 }
 
 h1{
@@ -13,7 +13,9 @@ h1{
 
 }
 
-
+ul{
+    list-style: none;
+}
 
 .navbar{
     display:flex;
@@ -96,5 +98,5 @@ h1{
 
 .prox{
 
-    color: darkred;;
+    color: #ff0000;
 }
