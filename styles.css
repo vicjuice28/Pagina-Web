@@ -5,7 +5,6 @@
 
 h1{
     
-    color: purple;
     font-family: 'Cambria';
     font-size: 100px;
     margin-left:400px
@@ -22,7 +21,7 @@ p {
 
 nav{
     display:flex;
-    background-color: aqua;
+    background-color: #3eb;
     font-size: 20px;
 
 
@@ -41,15 +40,15 @@ nav img{
     font-size:30px;
     display:inline-block;
     color: darkred;
-    margin: 100px 40px;
+    
     background-color: #fff;
 }
 .anxiety-container img{
-    padding; 0;
+    margin-top:0;
     display: block;
-
     width:300px;
     height: 300px;
+    border-radius: 10px;
 
 
 }
@@ -60,14 +59,20 @@ nav img{
 }
 
 .nextalbums img{
-    border-radius: 100%;
+    border-radius: 80%;
     width:300px;
     height: 300px;
-    filter: blur(4px);
+    filter: blur(5px);
+    padding:15px 15px;
 }
 
 .nextalbums img:hover{
 
     filter: blur(0);
-    transition: all 600ms;
+    transition: all 400ms;
+}
+
+.prox{
+
+    color: darkred;;
 }
