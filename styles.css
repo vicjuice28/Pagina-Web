@@ -38,7 +38,7 @@ i{
 }
 .navbar a:visited{
 
-    color: #6F50A9;
+    color: #614694;
 
 }
 
@@ -51,6 +51,9 @@ i{
 .welcome{
     text-align: center;
     font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-shadow: 2.5px 2.5px #324ecc;    
     
 }
 
@@ -64,6 +67,7 @@ i{
     text-align: center;
     background-color:#DCAE8A;
     list-style-position: inside;
+    margin-bottom: 0;
 }
 .anxiety-container img{
     
@@ -72,7 +76,6 @@ i{
     height: 250px;
     border-radius: 20px;
     align-items: center;
-    margin auto auto;
 
 
 }
@@ -86,6 +89,7 @@ i{
 .covers{
     background: lightcoral;
     text-align: center;
+    margin-top: 0;
 }
 .covers img{
     padding: 50px;
@@ -96,7 +100,7 @@ i{
 
     width: 350px;
     height: 250px;
-    transition: all 600ms;
+    transition: all 500ms;
 }
 
 
