@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    background: #D5896E;
+    background: #351f39;
 }
 
 
@@ -17,20 +17,21 @@ i{
 
 .navbar{
     display:flex;
-    background: #3eb;
+    background: #a0c1b8;
     font-size: 22px;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 70px;
-    box-shadow: 3px 4px 1px rgb(138, 103, 103);
+    box-shadow: 3px 4px 1px #719fb0;
     height: 65px;
+    text-shadow: .5px .5px #472a4d;
 }
 
 
 
 .navbar a:link{
     text-decoration: none;
-    color: #324ecc;
+    color: rgb(121, 64, 255);
 }
 .navbar a:hover{
     text-decoration: underline;
@@ -38,7 +39,7 @@ i{
 }
 .navbar a:visited{
 
-    color: #614694;
+    color: #835fc5;
 
 }
 
@@ -49,11 +50,12 @@ i{
 
 
 .welcome{
+    color: #fff;
     text-align: center;
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 0;
-    text-shadow: 2.5px 2.5px rgb(102, 102, 102);    
+    text-shadow: 2px 2px rgb(0, 0, 0);    
     
 }
 
@@ -61,16 +63,17 @@ i{
 
 
 .anxiety-container{
-    color: darkred;
-    background-color:#DCAE8A;   
+    color: #62559c;
+    background-color:#849fa8;   
     margin-bottom: 0;
     border-radius: 20px;
 }
 
 .Anxiety-header{
+    color: #fff;
     text-align: center;
     font-size: 40px;
-    text-shadow: 1.5px 3px #bd3f3f;
+    text-shadow: 1.5px 3px #351f39;
 }
 
 
@@ -104,10 +107,12 @@ i{
 
 
 .covers{
-    background: lightcoral;
+    background: #726a95;
     text-align: center;
     margin-top: 0;
     border-radius: 20px;
+    color: #fff;
+    text-shadow: 2px 2px #351f39;
     
 }
 
@@ -135,6 +140,8 @@ i{
 .nextalbums{
     
     text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #000;
 
 }
 
