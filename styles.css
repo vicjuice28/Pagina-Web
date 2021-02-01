@@ -18,12 +18,12 @@ i{
 .navbar{
     display:flex;
     background: #3eb;
-    font-size: 20px;
+    font-size: 22px;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 60px;
+    border-radius: 70px;
     box-shadow: 3px 4px 1px rgb(138, 103, 103);
-    height: 60px;
+    height: 65px;
 }
 
 
@@ -43,8 +43,8 @@ i{
 }
 
 .navbar img{
-    width: 50px;
-    height: 50px;   
+    width: 60px;
+    height: 60px;   
 }
 
 
@@ -53,7 +53,7 @@ i{
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 0;
-    text-shadow: 2.5px 2.5px #324ecc;    
+    text-shadow: 2.5px 2.5px rgb(102, 102, 102);    
     
 }
 
@@ -61,24 +61,28 @@ i{
 
 
 .anxiety-container{
-    
-    display: block;
     color: darkred;
-    text-align: center;
-    background-color:#DCAE8A;
-    list-style-position: inside;
+    background-color:#DCAE8A;   
     margin-bottom: 0;
+    border-radius: 20px;
 }
-.anxiety-container img{
-    
-    margin-top:0;
+
+.Anxiety-header{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.anxiety-container img {
+    display:block;
     width:250px;
     height: 250px;
     border-radius: 20px;
-    align-items: center;
-
-
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 .anxiety-container img:hover{
 
     width: 300px;
@@ -86,25 +90,42 @@ i{
     border-radius: 10px;
     transition: all 1s;
 }
+
+.anxiety-album{
+    display: block;
+    text-align: center;
+    list-style-position:inside;
+
+}
+
+
 .covers{
     background: lightcoral;
     text-align: center;
     margin-top: 0;
+    border-radius: 20px;
+    
 }
+
+
 .covers img{
     padding: 50px;
-    width: 300px;
-    height: 200px;
+    border-radius: 60px;
+    width: 250px;
+    height: 150px;
 }
+
+
 .covers img:hover{
 
-    width: 350px;
-    height: 250px;
+    width: 310px;
+    height: 210px;
     transition: all 500ms;
 }
 
-
-
+.covers a:link{
+    text-decoration: none;
+}
 
 
 .nextalbums{
