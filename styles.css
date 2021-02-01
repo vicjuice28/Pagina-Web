@@ -70,7 +70,7 @@ i{
 .Anxiety-header{
     text-align: center;
     font-size: 40px;
-    text-shadow: 3px 3px #bd3f3f;
+    text-shadow: 1.5px 3px #bd3f3f;
 }
 
 
@@ -115,15 +115,15 @@ i{
 .covers img{
     padding: 50px;
     border-radius: 60px;
-    width: 250px;
-    height: 150px;
+    width: 280px;
+    height: 180px;
 }
 
 
 .covers img:hover{
 
-    width: 310px;
-    height: 210px;
+    width: 330px;
+    height: 230px;
     transition: all 500ms;
 }
 
