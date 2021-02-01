@@ -70,31 +70,36 @@ i{
 .Anxiety-header{
     text-align: center;
     font-size: 40px;
+    text-shadow: 3px 3px #bd3f3f;
 }
 
 
 .anxiety-container img {
-    display:block;
-    width:250px;
-    height: 250px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.anxiety-container img:hover{
-
-    width: 300px;
+    display:inline;
+    width:300px;
     height: 300px;
-    border-radius: 10px;
-    transition: all 1s;
+    border-radius: 20px;
+    margin:0 30px 40px 300px;
+    
 }
 
-.anxiety-album{
-    display: block;
-    text-align: center;
+
+.anxiety-album-container{
+    display: inline-block;
     list-style-position:inside;
+    margin-top: 40px;
+    position:absolute;
+    font-size: 22px;
+}
+
+.anxiety-download{
+
+    text-align: center;
+}
+
+.prox{
+
+    color: #ff0000;
 }
 
 
@@ -149,7 +154,8 @@ i{
     transition: all 600ms;
 }
 
-.prox{
+.nextalbums h6{
 
-    color: #ff0000;
+    font-family: 'Trebuchet MS';
 }
+
