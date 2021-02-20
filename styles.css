@@ -116,8 +116,8 @@ i{
 .covers{
     background: #9a8194;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 50px;
+    padding-top: 2px;
+    padding-bottom: 0px;
     border-radius: 20px;
     color: #fff;
     text-shadow: 2px 2px #351f39;
@@ -127,8 +127,8 @@ i{
 
 
 .covers img{
-    padding: 50px;
-    border-radius: 60px;
+    padding: 40px;
+    border-radius: 50px;
     width: 280px;
     height: 180px;
 }
@@ -136,8 +136,8 @@ i{
 
 .covers img:hover{
 
-    width: 330px;
-    height: 230px;
+    width: 310px;
+    height: 210px;
     transition: all 500ms;
 }
 
@@ -192,3 +192,4 @@ i{
     text-align: center;
     color:#ff0000;
 }
+
