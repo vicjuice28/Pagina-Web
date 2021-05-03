@@ -21,6 +21,15 @@ p{
     text-align: left;
     line-height: 35px;
 }
+.prox{
+    text-align: center;
+}
+
+a{
+    display: block;
+    text-align: center;
+    font-size: 26px;
+}
 
 .parrafo, h2{
     width: 80%;
