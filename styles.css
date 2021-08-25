@@ -1,6 +1,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    max-width: 1920px;
+    margin: 0 auto;
     background: #f7f7f7;
 }
 
@@ -32,12 +33,12 @@ i{
 }
 
 .navbar i:hover{
-    color:#6a7381;
+    color:#474747;
 }
 
 .navbar a:link{
     text-decoration: none;
-    color: #414750;
+    color: #252525;
 }
 .navbar a:hover{
     text-decoration: underline;
@@ -45,7 +46,7 @@ i{
 }
 .navbar a:visited{
 
-    color: #393e46;
+    color: #252525;
 
 }
 
@@ -158,15 +159,22 @@ i{
     display: inline-block;
     list-style-position:inside;
     position:absolute;
-    font-size: 22px;
+    font-size: 20px;
+    
 }
 
 .juice-download {
     text-align: center;
+    display:inline-block;
+    justify-content:flex-start;
+    background-color: #252525;
+    border-radius: 9%;
+    padding: 10px;
 }
 
-.juice-download a{
-    color: #555555;
+.juice-download a:link, :visited{
+    text-decoration: none;
+    color: #eeeeee;
 }
 
 
