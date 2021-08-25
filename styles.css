@@ -12,7 +12,7 @@ h1{
 
 i{
     padding: 30px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
@@ -61,7 +61,7 @@ i{
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    text-shadow: 2px 2px #929aab;    
+        
     
 }
 
@@ -103,8 +103,19 @@ i{
 }
 
 .anxiety-download{
-
     text-align: center;
+    display:inline-block;
+    justify-content:flex-start;
+    background-color: #252525;
+    border-radius: 9%;
+    padding: 10px;
+    
+
+    
+}
+.anxiety-download a:link, a:visited{
+    text-decoration: none;
+    color: #eeeeee;
 }
 
 /** Juice album **/
@@ -233,23 +244,19 @@ i{
 
 .footer{
     display:flex;
-    background-color: #494949;
+    background-color: #0f0f0f;
     color: #faf3e0;
     height: 80px;
     font-family: 'Trebuchet MS';
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     border-radius: 3px;
-    position: sticky;
-}
-
-.footer-h5{
-
-    text-align: center;
+    position:relative;
 }
 
 
 .footer-h6{
     text-align: center;
+    font-size: 13px;
+    
 }
 
