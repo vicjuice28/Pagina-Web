@@ -114,7 +114,13 @@ i{
 
     
 }
-.anxiety-download a:link, a:visited{
+
+.anxiety-album a:visited{
+    color: #5a5a5a;
+}
+
+
+.anxiety-download a:link, .anxiety-download a:visited{
     text-decoration: none;
     color: #eeeeee;
 }
@@ -140,7 +146,7 @@ i{
 .juice-header{
     color: #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 1.5px 3px #929aab;
 }
 
